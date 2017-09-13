@@ -1,0 +1,110 @@
+html {
+	min-height:100%;
+}
+body {
+	background-color: #f7f7f7;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed ;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	padding-bottom: 75px;
+}
+.container {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.btn {
+	margin-bottom: 2px;
+	font-size: 1.5em;
+	color: black;
+	padding: 0px 3px 0px 3px;
+	border-radius: 0%;
+	transition: all ease-in-out .2s;
+	white-space: inherit;
+}
+.btn:hover {
+	color: #3F8EFC;
+;
+}
+.btn:focus {
+	outline-color: none;
+	outline-style: none;
+}
+#in {
+	display:none;
+}
+button{
+	background-color: rgba(255,255,255,.9);
+	border: 2px solid black;
+	border-radius: 2px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	position: relative;
+	right: 5px;
+	padding: 6px;
+	padding-bottom: 5px;
+}
+button:focus{
+	outline-color: none;
+	outline-style: none;
+}
+button:hover{
+	color:#3F8EFC;
+	transition: 1s;
+}
+form input{
+	background-color: rgba(255,255,255,.9);
+	border: 2px solid black;
+	border-right-color:transparent;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	width:65%;
+	max-width: 300px;
+	height: 35px;
+	border-radius: 2px;
+	padding: 3px;
+	font-size: 1.25em;
+}
+form input:hover {
+	border-left: 5px solid #3F8EFC;
+}
+form input:focus {
+	border-left: 5px solid #3F8EFC;
+	outline-color: none;
+	outline-style:none;
+}
+.wiki-page {
+	background-color:rgba(255,255,255,.9);
+	border-radius: 3px;
+	border-top-left-radius: 1px;
+	border-bottom-left-radius: 1px;
+	box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+	margin-right:5%;
+	margin-left:5%;
+	display: none;
+	color: black;
+	border-left: 7px solid transparent;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+p{
+	padding-right: 3px;
+}
+a:hover {
+	text-decoration: none;
+}
+.wiki-page:hover {
+	border-left: 7px solid #3F8EFC;
+}
+.wiki-page h3{
+	padding: 5px 5px 25px 0px;
+}
+#content div{
+	margin:0px;
+}
